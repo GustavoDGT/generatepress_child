@@ -76,7 +76,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
               <div class="course-thumbnail"> 
                 <?php if (!empty($f_image)): ?>
                   <a href="<?php the_permalink(); ?>"> 
-                    <img src="<?php echo $f_image[0]; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
+                    <img class="owl-lazy" data-src="<?php echo $f_image[0]; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
                   </a>
                 <?php endif; ?>
               </div>
