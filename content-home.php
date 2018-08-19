@@ -89,7 +89,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) && is_array( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time>Próximo inicio: <?php foreach( $date_start as $date ): ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start; ?>"><?php echo convert_spanish_date( $date ); ?></span><br><?php endforeach; ?></time>  
+                    <time>Próximos inicios: <?php foreach( $date_start as $date ): ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start; ?>"><?php echo convert_spanish_date( $date ); ?></span><br><?php endforeach; ?></time>  
                   </div>
                 <?php endif; ?>
               </div>
@@ -108,7 +108,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
               <div class="course-thumbnail"> 
                 <?php if (!empty($f_image)): ?>
                   <a href="<?php the_permalink(); ?>"> 
-                    <img src="<?php echo $f_image[0]; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
+                    <img class="owl-lazy" data-src="<?php echo $f_image[0]; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
                   </a>
                 <?php endif; ?>
               </div>
@@ -121,7 +121,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time>Próximo inicio: <?php foreach( $date_start as $date): ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date; ?>"><?php echo convert_spanish_date( $date ); ?></span><br><?php endforeach; ?></time>  
+                    <time>Próximos inicios: <?php $i=0; foreach( $date_start as $date): $i++; ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date; ?>"><?php echo convert_spanish_date( $date ); ?></span><?php if( $i != count( $date_start ) ) echo ', '; endforeach; ?></time>  
                   </div>
                 <?php endif; ?>
               </div>
@@ -363,32 +363,37 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <div id="its-clients" class="its-clients slider-home owl-carousel owl-theme">
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/1_aje.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/1_aje.png'; ?>" alt="" class="client-item"/>
     </div>
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/2_lindley.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/2_lindley.png'; ?>" alt="" class="client-item"/>
     </div>
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/3_malaga.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/3_malaga.png'; ?>" alt="" class="client-item"/>
     </div>
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/4_ism.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/4_ism.png'; ?>" alt="" class="client-item"/>
     </div>
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/5_gandules_inc.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/5_gandules_inc.png'; ?>" alt="" class="client-item"/>
     </div>
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/6_ipesa.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/6_ipesa.png'; ?>" alt="" class="client-item"/>
     </div>
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/7_dent_import.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/7_dent_import.png'; ?>" alt="" class="client-item"/>
     </div>
     <div class="client item">
-      <img src="<?php echo $upload_path . '/2018/07/8_globaltec.png'; ?>" alt="" class="client-item"/>
+      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/8_globaltec.png'; ?>" alt="" class="client-item"/>
     </div>
   </div>
 </section>
-<?php include( WIP_PLUGIN_PATH . 'front/parts/sponsors.php' ); ?>
+<section id="wip-sponsors" class="grid-100 wip-20-top wip-40-bottom align-center tiny-section">
+  <div class="grid-100 mobile-grid-100 wip-20-bottom">
+    <h3 class="title-sponsors">ITSYSTEMS CUENTA CON EL RESPALDO DE</h3>
+  </div>
+  <?php include( WIP_PLUGIN_PATH . 'front/parts/sponsors.php' ); ?>
+</section>
 <section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-blue skinny-section" style="background: url('<?php echo WIP_PLUGIN_URL . 'images/bg-contact.jpg'; ?>')">
   <div class="grid-100 mobile-grid-100">
     <div class="grid-100 grid-parent">
