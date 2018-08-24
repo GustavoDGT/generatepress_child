@@ -246,7 +246,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
 </section>
 <section id="wip-testimonial" class="align-center grid-100 mobile-grid-100 skinny-section bg-blue wip-40 ">
-  <h2>NUESTROS ALUMNOS ¿QUÉ OPINAN?</h2>
+  <h2>EXPERIENCIAS DE ÉXITO</h2>
   <div class="wip-header-white-line"></div>
   <p>La satisfacción de nuestros estudiantes es nuestra mejor carta de presentación.</p>
   <div id="testimonial" class="slider-home owl-carousel owl-theme">
@@ -254,12 +254,12 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                   <div class="text-caption">
                     <img class="person-img" src="<?php echo $upload_path . '/2018/07/testimonio-01.png'; ?>" />
                     <blockquote>
-                      "Me brindó una visión diferente para la ejecución de proyectos y herramientas para mi crecimiento profesional. Pude identificar las mejores experiencias en mi vida."
+                      "Les recomiendo estudiar en Itsystems Perú porque brindan ejercicios bien prácticos aplicados a la realidad dentro del ambiente productivo en SAP. Asimismo, les brindan apoyo para poder practicar las 24 horas, sin importar el lugar, ni la distancia y sobretodo asesorías a todo nivel. Es un excelente lugar para empezar en el mundo del SAP."
                     </blockquote>
-                    <p><b>Taller en Proyectos Ágiles con Scrum</b></p>
+                    <!--<p><b>Taller en Proyectos Ágiles con Scrum</b></p>-->
                     <p>
-                      <span class="person-name">Mónica Flores</span><br>
-                      Subgerente de Proyectos Estratégicos en BanBif
+                      <span class="person-name">Marcos Irving Mera Sanchez</span><br>
+                      Ing. CIP Sistemas - IT Professional
                     </p>
                   </div>
                 </div>
@@ -267,12 +267,11 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                   <div class="text-caption">
                     <img class="person-img" src="<?php echo $upload_path . '/2018/07/testimonio-02.png'; ?>" />
                     <blockquote>
-                      "Me brindó una visión diferente para la ejecución de proyectos y herramientas para mi crecimiento profesional. Pude identificar las mejores experiencias en mi vida."
+                      "Excelente el curso de SAP Business One, el profesor Joel Campos es un buen profesional, un grupo reducido de estudiantes, recibí un gran apoyo tanto de él, como de la parte administrativa, muy recomendado."
                     </blockquote>
-                    <p><b>SAP HCM</b></p>
                     <p>
-                      <span class="person-name">Franco Lamas</span><br>
-                      Analista en Financiera Efectiva
+                      <span class="person-name">Jorge Arturo Romero Chuquimantari</span><br>
+                      Analista de Sistemas
                     </p>
                   </div>
                 </div>
