@@ -12,8 +12,8 @@ $uploads = wp_upload_dir();
 $upload_path = $uploads['baseurl'];
 
 $courses_args = array( 'post_type' => LP_COURSE_CPT, 
-  'orderby' => 'date', 
-  'order' => 'DESC', 
+  'orderby' => 'menu_order', 
+  'order' => 'ASC', 
 );
 
 ?>
@@ -234,7 +234,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
         <i class="fa fa-handshake-o fa-2x icon-service wip-circle" aria-hidden="true"></i>
       </div>
       <div class="wip-cell-left">
-        <h4 class="wip-icon-text">EXPERCIENCIA DOCENTE</h4>
+        <h4 class="wip-icon-text">EXPERIENCIA DOCENTE</h4>
       </div>
     </div>
     <!--<div class="wip-50">
@@ -242,10 +242,11 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     </div>-->
   </div>
   <div class="bg-formation grid-50 mobile-grid-100 grid-parent" style="background: url( '<?php echo $upload_path . '/2018/07/aprende-nosotros.jpg'; ?>' )">
+    <i class="fa fa-video fa-2x icon-service wip-circle" aria-hidden="true"></i>
   </div>
 </section>
 <section id="wip-testimonial" class="align-center grid-100 mobile-grid-100 skinny-section bg-blue wip-40 ">
-  <h2>EXPERIENCIAS DE ÉXITO</h2>
+  <h2>NUESTROS ALUMNOS ¿QUÉ OPINAN?</h2>
   <div class="wip-header-white-line"></div>
   <p>La satisfacción de nuestros estudiantes es nuestra mejor carta de presentación.</p>
   <div id="testimonial" class="slider-home owl-carousel owl-theme">
@@ -394,7 +395,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <?php include( WIP_PLUGIN_PATH . 'front/parts/sponsors.php' ); ?>
 </section>
-<section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-blue skinny-section" style="background: url('<?php echo WIP_PLUGIN_URL . 'images/bg-contact.jpg'; ?>')">
+<section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-section skinny-section" style="background: url('<?php echo WIP_PLUGIN_URL . 'images/bg-contact.jpg'; ?>')">
   <div class="grid-100 mobile-grid-100">
     <div class="grid-100 grid-parent">
       <h2>SUSCRÍBETE AHORA</h2>
