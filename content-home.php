@@ -242,7 +242,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     </div>-->
   </div>
   <div class="bg-formation grid-50 mobile-grid-100 grid-parent" style="background: url( '<?php echo $upload_path . '/2018/07/aprende-nosotros.jpg'; ?>' )">
-    <i class="fa fa-video fa-2x icon-service wip-circle" aria-hidden="true"></i>
+    <!--<i class="fa fa-video fa-2x icon-service wip-circle" aria-hidden="true"></i>-->
   </div>
 </section>
 <section id="wip-testimonial" class="align-center grid-100 mobile-grid-100 skinny-section bg-blue wip-40 ">
