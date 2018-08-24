@@ -364,28 +364,28 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <div id="its-clients" class="its-clients slider-home owl-carousel owl-theme">
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/1_aje.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/1_aje.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/2_lindley.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/2_lindley.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/3_malaga.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/3_malaga.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/4_ism.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/4_ism.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/5_gandules_inc.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/5_gandules_inc.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/6_ipesa.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/6_ipesa.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/7_dent_import.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/7_dent_import.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img class="owl-lazy" data-src="<?php echo $upload_path . '/2018/07/8_globaltec.png'; ?>" alt="" class="client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/8_globaltec.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
   </div>
 </section>
