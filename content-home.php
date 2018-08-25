@@ -252,7 +252,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   <div id="testimonial" class="slider-home owl-carousel owl-theme">
                 <div id="item-1" class="item">
                   <div class="text-caption">
-                    <img class="person-img" src="<?php echo $upload_path . '/2018/08/marcos.png'; ?>" />
+                    <img class="person-img" src="<?php echo $upload_path . '/2018/08/marcos-1.png'; ?>" />
                     <blockquote>
                       "Les recomiendo estudiar en Itsystems Perú porque brindan ejercicios bien prácticos aplicados a la realidad dentro del ambiente productivo en SAP. Asimismo, les brindan apoyo para poder practicar las 24 horas, sin importar el lugar, ni la distancia y sobretodo asesorías a todo nivel. Es un excelente lugar para empezar en el mundo del SAP."
                     </blockquote>
@@ -265,7 +265,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <div id="item-2" class="item">
                   <div class="text-caption">
-                    <img class="person-img" src="<?php echo $upload_path . '/2018/08/jorge.png'; ?>" />
+                    <img class="person-img" src="<?php echo $upload_path . '/2018/08/jorge-1.png'; ?>" />
                     <blockquote>
                       "Excelente el curso de SAP Business One, el profesor Joel Campos es un buen profesional, un grupo reducido de estudiantes, recibí un gran apoyo tanto de él, como de la parte administrativa, muy recomendado."
                     </blockquote>
