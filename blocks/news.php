@@ -13,7 +13,7 @@ if ( $max_items != 0 ) :
 	foreach ($home_rss_items as $item):
 		$img_url = $item->get_author()->email;	
 ?>      			
-			<li class="grid-25 mobile-grid-100 wip-news">
+			<li class="wip-news grid-25 mobile-grid-100 bg-white">
 	      <div class="thim-widget-icon-box">
 	        <div class="wrapper-box-icon has_custom_image text-center image_box">
 	          <div class="smicon-box iconbox-top">

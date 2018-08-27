@@ -277,7 +277,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
   </div>
 </section>
-<section id="wip-news" class="grid-100 wip-40 tiny-section bg-skyblue">
+<section id="wip-news" class="grid-100 wip-40 skinny-section bg-skyblue">
   <div class="grid-75 mobile-grid-100">
     <h2>ARTÍCULOS ESPECIALIZADOS</h2>
     <div class="wip-normal-line"></div>
