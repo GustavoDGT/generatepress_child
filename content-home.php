@@ -339,4 +339,4 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     </div>
   </div>
 </section>
-<!--wea-->
+
