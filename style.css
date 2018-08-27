@@ -433,8 +433,11 @@ body.home.page .generate-back-to-top:hover {
 }
 
 /* WIP Courses */
-#wip-tabs-courses {
-    padding: 0 5%;
+#wip-tabs-courses, 
+#testimonial .text-caption,
+#wip-news ul
+ {
+  padding: 0 5%;
 }
 
 #wip-tabs-courses .tab-section {
@@ -794,9 +797,7 @@ img.person-img {
 .person-name {
     text-transform: uppercase;
 }
-#testimonial .text-caption {
-    padding: 0 5%;
-}
+
 /* CLIENTS GENERAL */
 img.client-item:hover {
     opacity: 1 !important;
@@ -1131,7 +1132,8 @@ section .border-section:last-child {
 
     .wip-view-all {
       text-align: center;
-      display: block
+      display: block;
+      margin: 10px 0 40px;
     }
 
     /** COURSE CPT TYPE */
