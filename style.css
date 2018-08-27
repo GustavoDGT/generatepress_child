@@ -433,13 +433,6 @@ body.home.page .generate-back-to-top:hover {
 }
 
 /* WIP Courses */
-#wip-tabs-courses, 
-#testimonial .text-caption,
-#wip-news ul
- {
-  padding: 0 5%;
-}
-
 #wip-tabs-courses .tab-section {
   visibility: hidden;
   height: 0;
