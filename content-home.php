@@ -32,7 +32,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     </div>
   </div>
 </section>
-<section id="wip-courses" class="align-center grid-100 wip-40 bg-skyblue skinny-section">
+<section id="wip-courses" class="align-center grid-100 wip-40 bg-skyblue tight-section">
   <div class="grid-100 mobile-grid-100">
     <h2>NUESTROS CURSOS</h2>
     <div class="wip-header-line"></div>
@@ -245,7 +245,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     <!--<i class="fa fa-video fa-2x icon-service wip-circle" aria-hidden="true"></i>-->
   </div>
 </section>
-<section id="wip-testimonial" class="align-center grid-100 mobile-grid-100 skinny-section bg-blue wip-40 ">
+<section id="wip-testimonial" class="align-center grid-100 mobile-grid-100 tight-section bg-blue wip-40 ">
   <h2>EXPERIENCIAS DE ÉXITO</h2>
   <div class="wip-header-white-line"></div>
   <p>La satisfacción de nuestros estudiantes es nuestra mejor carta de presentación.</p>
@@ -277,7 +277,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
   </div>
 </section>
-<section id="wip-news" class="grid-100 wip-40-top wip-20-bottom skinny-section bg-skyblue">
+<section id="wip-news" class="grid-100 wip-40-top wip-20-bottom tight-section bg-skyblue">
   <div class="grid-75 mobile-grid-100">
     <h2>ARTÍCULOS ESPECIALIZADOS</h2>
     <div class="wip-normal-line"></div>
@@ -288,7 +288,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <?php get_template_part('blocks/news'); ?>
 </section>
-<section id="wip-clients" class="grid-100 wip-40-top wip-20-bottom align-center tiny-section">
+<section id="wip-clients" class="grid-100 wip-40-top wip-20-bottom align-center tight-section">
   <div class="grid-100 mobile-grid-100 wip-20-bottom">
     <h3 class="title-sponsors">¿QUIÉNES CONFÍAN EN NOSOTROS?</h3>
   </div>

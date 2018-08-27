@@ -218,6 +218,10 @@ i.wip-circle {
   padding-right: 5% !important;
   padding-left: 5% !important;
 }
+.tight-section {
+  padding-right: 10% !important;
+  padding-left: 10% !important;
+}
 .bg-section {
     font-family: "SF Pro Display";
     color: #fff;
