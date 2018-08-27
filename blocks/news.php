@@ -1,5 +1,5 @@
 <?php
-$home_rss = fetch_feed( 'https://itsystems.pe/blog/trem-rss' );
+$home_rss = fetch_feed( 'https://itsystems.pe/blog/home-featured-news-rss/' );
 $max_items = 0;
 if ( ! is_wp_error( $home_rss ) ) : 
 	$home_rss->enable_order_by_date( false );
