@@ -721,12 +721,12 @@ h3.wip-initial-date {
     transform: scale(1.1);
 }
 .thim-widget-icon-box .image_box img {
-    -webkit-transition: all .2s ease-in-out 0s;
-    -khtml-transition: all .2s ease-in-out 0s;
-    -moz-transition: all .2s ease-in-out 0s;
-    -ms-transition: all .2s ease-in-out 0s;
-    -o-transition: all .2s ease-in-out 0s;
-    transition: all .2s ease-in-out 0s;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -khtml-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
     border-radius: 10px 10px 0 0;
 }
 
