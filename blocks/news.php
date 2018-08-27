@@ -22,7 +22,7 @@ if ( $max_items != 0 ) :
 	            </div>
 	            <div class="content-inner">
 	              <div class="sc-heading article_heading">
-	                <h4><a href="<?php echo $item->get_link(); ?>" title="<?php echo $item->get_title(); ?>"><?php echo $item->get_title(); ?></a><span class="date-publish"><?php echo $item->get_date( 'M' ).' '.$item->get_date( 'd' ).', '.$item->get_date( 'Y' ); ?></span></h4>
+	                <h4><a href="<?php echo $item->get_link(); ?>" title="<?php echo $item->get_title(); ?>"><?php echo $item->get_title(); ?></a><!--<span class="date-publish"><?php echo $item->get_date( 'M' ).' '.$item->get_date( 'd' ).', '.$item->get_date( 'Y' ); ?></span>--></h4>
 	              </div><div class="desc-icon-box"><div class="desc-content"><?php echo $item->get_content(); ?><br>
 	              <a class="more-new" title="<?php echo $item->get_title(); ?>" href="<?php echo $item->get_link(); ?>">Leer más...</a></div></div>
 	            </div>
