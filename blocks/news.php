@@ -8,7 +8,7 @@ if ( ! is_wp_error( $home_rss ) ) :
 endif;
 if ( $max_items != 0 ) : 
 ?>
-	<ul class="grid-100 align-center">
+	<ul class="grid-100 align-center grid-parent">
 <?php
 	foreach ($home_rss_items as $item):
 		$img_url = $item->get_author()->email;	
