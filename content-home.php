@@ -284,7 +284,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     <p>Infórmate más sobre Educación Ejecutiva de UTEC</p>
   </div>
   <div class="grid-25 mobile-grid-100 align-right">
-    <a class="wip-btn" href="https://educationwp.thimpress.com/demo-edtech/courses/"><i class="fa fa-arrow-right"></i> Ver todos</a>
+    <a class="wip-btn" href="<?php echo get_bloginfo( 'url' ) . '/blog'; ?>"><i class="fa fa-arrow-right"></i> Ver todos</a>
   </div>
   <?php get_template_part('blocks/news'); ?>
 </section>
