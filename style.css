@@ -297,6 +297,9 @@ i.wip-circle {
 .wip-tab input[type=radio]:checked + label::after {
   transform: rotateX(180deg);
 }
+.wip-view-all {
+  text-align: right;
+}
 /* END General */
 
 /** General Colors **/
@@ -1119,8 +1122,18 @@ section .border-section:last-child {
     }
     
     #testimonial .text-caption {
-        padding: 0;
+      padding: 0;
     }
+
+    img.client-item {
+      width: 100% !important;
+    }
+
+    .wip-view-all {
+      text-align: center;
+      display: block
+    }
+
     /** COURSE CPT TYPE */
     .admin-bar .wip-sticky,
     .admin-bar.sticky-enabled.single-lp_course .wip-sticky {

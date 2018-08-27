@@ -277,13 +277,13 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
   </div>
 </section>
-<section id="wip-news" class="grid-100 wip-40 skinny-section bg-skyblue">
+<section id="wip-news" class="grid-100 wip-40-top wip-20-bottom skinny-section bg-skyblue">
   <div class="grid-75 mobile-grid-100">
     <h2>ARTÍCULOS ESPECIALIZADOS</h2>
     <div class="wip-normal-line"></div>
     <p>Infórmate más sobre nuestras últimas noticias</p>
   </div>
-  <div class="grid-25 mobile-grid-100 align-right">
+  <div class="wip-view-all grid-25 mobile-grid-100">
     <a class="wip-btn" href="<?php echo get_bloginfo( 'url' ) . '/blog'; ?>"><i class="fa fa-arrow-right"></i> Ver todos</a>
   </div>
   <?php get_template_part('blocks/news'); ?>
