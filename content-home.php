@@ -277,7 +277,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
   </div>
 </section>
-<!--<section id="wip-news" class="grid-100 wip-40 tiny-section">
+<section id="wip-news" class="grid-100 wip-40 tiny-section">
   <div class="grid-75 mobile-grid-100">
     <h2>ARTÍCULOS ESPECIALIZADOS</h2>
     <div class="wip-normal-line"></div>
@@ -286,77 +286,8 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   <div class="grid-25 mobile-grid-100 align-right">
     <a class="wip-btn" href="https://educationwp.thimpress.com/demo-edtech/courses/"><i class="fa fa-arrow-right"></i> Ver todos</a>
   </div>
-  <div class="grid-100 align-center">
-    <div class="grid-25 mobile-grid-100">
-      <div class="thim-widget-icon-box">
-        <div class="wrapper-box-icon has_custom_image text-center image_box">
-          <div class="smicon-box iconbox-top">
-            <div class="boxes-icon">
-              <img src="https://educationwp.thimpress.com/demo-edtech/wp-content/uploads/sites/46/2015/06/course-2-400x300.jpg" alt="icon2" title="icon2">
-            </div>
-            <div class="content-inner">
-              <div class="sc-heading article_heading">
-                <h4><a href="#">Expert instruction</a></h4>
-              </div><div class="desc-icon-box"><div class="desc-content">Find the right instructor for you mance by assigning tasks, com municati instruction.<br>
-              <a class="more-new" href="#">Leer más...</a></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grid-25 mobile-grid-100">
-      <div class="thim-widget-icon-box">
-        <div class="wrapper-box-icon has_custom_image text-center image_box">
-          <div class="smicon-box iconbox-top">
-            <div class="boxes-icon">
-              <img src="https://educationwp.thimpress.com/demo-edtech/wp-content/uploads/sites/46/2015/06/course-2-400x300.jpg" alt="icon2" title="icon2">
-            </div>
-            <div class="content-inner">
-              <div class="sc-heading article_heading">
-                <h4><a href="#">Expert instruction</a></h4>
-              </div><div class="desc-icon-box"><div class="desc-content">Find the right instructor for you mance by assigning tasks, com municati instruction.<br>
-              <a class="more-new" href="#">Leer más...</a></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grid-25 mobile-grid-100">
-      <div class="thim-widget-icon-box">
-        <div class="wrapper-box-icon has_custom_image text-center image_box">
-          <div class="smicon-box iconbox-top">
-            <div class="boxes-icon">
-              <img src="https://educationwp.thimpress.com/demo-edtech/wp-content/uploads/sites/46/2015/06/course-2-400x300.jpg" alt="icon2" title="icon2">
-            </div>
-            <div class="content-inner">
-              <div class="sc-heading article_heading">
-                <h4><a href="#">Expert instruction</a></h4>
-              </div><div class="desc-icon-box"><div class="desc-content">Find the right instructor for you mance by assigning tasks, com municati instruction.<br>
-              <a class="more-new" href="#">Leer más...</a></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grid-25 mobile-grid-100">
-      <div class="thim-widget-icon-box">
-        <div class="wrapper-box-icon has_custom_image text-center image_box">
-          <div class="smicon-box iconbox-top">
-            <div class="boxes-icon">
-              <img src="https://educationwp.thimpress.com/demo-edtech/wp-content/uploads/sites/46/2015/06/course-2-400x300.jpg" alt="icon2" title="icon2">
-            </div>
-            <div class="content-inner">
-              <div class="sc-heading article_heading">
-                <h4><a href="#">Expert instruction</a></h4>
-              </div><div class="desc-icon-box"><div class="desc-content">Find the right instructor for you mance by assigning tasks, com municati instruction.<br>
-              <a class="more-new" href="#">Leer más...</a></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
+  <?php get_template_part('blocks/news'); ?>
+</section>
 <section id="wip-clients" class="grid-100 wip-40-top wip-20-bottom align-center tiny-section">
   <div class="grid-100 mobile-grid-100 wip-20-bottom">
     <h3 class="title-sponsors">¿QUIÉNES CONFÍAN EN NOSOTROS?</h3>
