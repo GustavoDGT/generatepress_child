@@ -277,11 +277,11 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
   </div>
 </section>
-<section id="wip-news" class="grid-100 wip-40 tiny-section">
+<section id="wip-news" class="grid-100 wip-40 tiny-section bg-skyblue">
   <div class="grid-75 mobile-grid-100">
     <h2>ARTÍCULOS ESPECIALIZADOS</h2>
     <div class="wip-normal-line"></div>
-    <p>Infórmate más sobre Educación Ejecutiva de UTEC</p>
+    <p>Infórmate más sobre nuestras últimas noticias</p>
   </div>
   <div class="grid-25 mobile-grid-100 align-right">
     <a class="wip-btn" href="<?php echo get_bloginfo( 'url' ) . '/blog'; ?>"><i class="fa fa-arrow-right"></i> Ver todos</a>
