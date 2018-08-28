@@ -27,7 +27,7 @@ $upload_path = $uploads['baseurl'];
     </div>
   </div>
 </section>
-<section id="wip-valors" class="grid-100 wip-40 tiny-section bg-skyblue">
+<section id="wip-valors" class="grid-100 wip-40 skinny-section bg-skyblue">
   <div class="grid-100 mobile-grid-100 align-center wip-20-bottom">
 		<h2>NUESTROS VALORES</h2>
 		<div class="wip-header-line"></div>

@@ -1188,9 +1188,9 @@ section .border-section:last-child {
 
     /* EXTRAS */
     ul.wip-list li {
-        width: 90%;
+        width: 80% !important;
         min-height: inherit;
-        margin: 0 10% 3px;
+        margin: 0 10% 5px !important;
     }
     #wip-contact-info .wip-social {
         margin: 0;
