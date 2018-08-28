@@ -845,9 +845,9 @@ img.client-item {
     color: #fff;
     font-family: "SF Pro Display";
 }
-#wip-contact .wip-form .wpcf7 .wip-input input::placeholder {
+/*#wip-contact .wip-form .wpcf7 .wip-input input::placeholder {
     color: #ccc;
-}
+}*/
 
 #wip-contact .wip-form .wpcf7 .wip-submit input {
   background: #00bfff;

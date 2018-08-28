@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <section id="wip-contact" class="grid-100 wip-40 align-center bg-section skinny-section parallax-enabled" data-parallax-speed="2" style="background-image: url('<?php echo get_stylesheet_directory_uri() . '/images/bg-contact.jpg'; ?>')">
   <div class="grid-100 mobile-grid-100">
-    <div class="grid-100 grid-parent">
+    <div class="grid-100 mobile-grid-100 grid-parent frase">
       <h2>SUSCRÍBETE AHORA</h2>
       <div class="wip-header-white-line"></div>
       <p>Regístrate para recibir nuestra programación, tutoriales y recursos en video en tu correo.</p>
