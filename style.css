@@ -35,7 +35,7 @@
 
 /* GENERAL */
 blockquote {
-    margin: 0 !important;
+    margin: 0 5%;
     border: none !important;
     font-size: 17px;
 }
@@ -495,9 +495,10 @@ h3.wip-initial-date {
     transition: all .5s ease-in-out;
 }
 
-.learn-press-courses .lp_course p, .learn-press-courses .lp_course span, .learn-press-courses .lp_course time {
+.learn-press-courses .lp_course p,
+.learn-press-courses .lp_course span,
+.learn-press-courses .lp_course time {
     font-size: 14px;
-    color: #777;
 }
 
 .lp_course .course-thumbnail {
