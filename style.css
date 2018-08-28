@@ -845,9 +845,10 @@ img.client-item {
     color: #fff;
     font-family: "SF Pro Display";
 }
-/*#wip-contact .wip-form .wpcf7 .wip-input input::placeholder {
-    color: #ccc;
-}*/
+
+#wip-contact .wip-form .wpcf7 .wip-input input::placeholder {
+    color: #fff;
+}
 
 #wip-contact .wip-form .wpcf7 .wip-submit input {
   background: #00bfff;
@@ -1063,6 +1064,11 @@ section .border-section:last-child {
 
 #wip-proposal ul.wip-list {
     margin: 0 25%;
+}
+
+#wip-valors .wip-list li {
+    width: 9%;
+    margin: 0 12%;
 }
 
 .archive .site-content, .post-type-archive-lp_course .site-content {
