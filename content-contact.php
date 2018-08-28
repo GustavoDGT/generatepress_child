@@ -137,33 +137,9 @@ $upload_path = $uploads['baseurl'];
 	</div>
 
 </section>
-
-<?php include( WIP_PLUGIN_PATH . 'front/parts/sponsors.php' ); ?>
-
-<section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-section skinny-section" style="background: url('<?php echo WIP_PLUGIN_URL . 'images/bg-contact.jpg'; ?>')">
-
-  <div class="grid-100 mobile-grid-100">
-
-    <div class="grid-100 grid-parent">
-
-      <h2>SUSCRÍBETE AHORA</h2>
-
-      <div class="wip-header-white-line"></div>
-
-      <p>Regístrate para recibir nuestra programación, tutoriales y recursos en video en tu correo.</p>
-
-    </div>
-
-    <div class="wip-form grid-100 grid-parent">
-
-      <div class="content">
-
-        <?php echo do_shortcode( '[contact-form-7 id="358" title="Contacto home"]' ); ?>
-
-      </div>
-
-    </div>
-
+<section id="wip-sponsors" class="grid-100 wip-20-top wip-40-bottom align-center tiny-section">
+  <div class="grid-100 mobile-grid-100 wip-20-bottom">
+    <h3 class="title-sponsors">ITSYSTEMS CUENTA CON EL RESPALDO DE</h3>
   </div>
-
+  <?php include( WIP_PLUGIN_PATH . 'front/parts/sponsors.php' ); ?>
 </section>
