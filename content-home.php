@@ -31,8 +31,8 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
       <img src="<?php echo $upload_path . '/2018/08/11_camara_comercio.png'; ?>"/>
     </div>
   </div>
-  <div class="grid-100 wip-40">
-      <a class="wip-btn" href="<?php echo get_bloginfo( 'url' ) . '/nosotros'; ?>">ACERCA DE NOSOTROS</a>
+  <div class="grid-100 mobile-grid-100 wip-20">
+      <a class="wip-btn" href="<?php echo get_bloginfo( 'url' ) . '/nosotros'; ?>">Ver más</a>
   </div>
 </section>
 <section id="wip-courses" class="align-center grid-100 wip-40 bg-skyblue tight-section">
@@ -92,7 +92,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) && is_array( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time>Próximos inicios: <?php foreach( $date_start as $date ): ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start; ?>"><?php echo convert_spanish_date( $date, 'tiny' ); ?></span><br><?php endforeach; ?></time>  
+                    <time class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start[0]; ?>">Próximos inicios: <?php echo convert_spanish_date( $date_start[0], 'tiny' ); ?></time>  
                   </div>
                 <?php endif; ?>
               </div>
@@ -124,7 +124,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time>Próximos inicios: <?php $i=0; foreach( $date_start as $date): $i++; ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date; ?>"><?php echo convert_spanish_date( $date, 'tiny' ); ?></span><?php if( $i != count( $date_start ) ) echo ', '; endforeach; ?></time>  
+                    <time class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start[0]; ?>">Próximos inicios: <?php echo convert_spanish_date( $date_start[0], 'tiny' ); ?></time>  
                   </div>
                 <?php endif; ?>
               </div>
