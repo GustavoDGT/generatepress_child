@@ -31,6 +31,9 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
       <img src="<?php echo $upload_path . '/2018/08/11_camara_comercio.png'; ?>"/>
     </div>
   </div>
+  <div class="grid-100 wip-40">
+      <a class="wip-btn" href="<?php echo get_bloginfo( 'url' ) . '/nosotros'; ?>">ACERCA DE NOSOTROS</a>
+  </div>
 </section>
 <section id="wip-courses" class="align-center grid-100 wip-40 bg-skyblue tight-section">
   <div class="grid-100 mobile-grid-100">
