@@ -24,7 +24,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   <div class="grid-100 mobile-grid-100">
     <h2>¿QUIÉNES SOMOS?</h2>
     <div class="wip-header-line"></div>
-    <p>Somos una organización de profesionales, dedicada a proveer soluciones y servicios de formación, <br>desarrollo e implementación de TICs orientados al la mejora continua y transformación digital.</p>
+    <p>Formamos y conectamos a profesionales en soluciones tecnológicas orientadas<br> a la gestión e innovación continua de organizaciones empresariales.</p>
   </div>
   <div class="grid-33 mobile-grid-100 prefix-33 sufix-33 mobile-prefix-0 mobile-sufix-0">
     <div class="sponsor item">
