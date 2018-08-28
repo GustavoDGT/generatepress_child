@@ -13,7 +13,7 @@ global $post;
 $uploads = wp_upload_dir();
 $upload_path = $uploads['baseurl'];
 ?>
-<section class="grid-100 grid-parent wip-40 skinny-section" id="wip-presentation">
+<section class="grid-100 grid-parent wip-40 skinny-section bg-skyblue" id="wip-presentation">
   <div class="grid-100 mobile-100 align-justify grid-parent">
     <div class="grid-40 prefix-5 sufix-5 mobile-grid-100 mobile-prefix-0 mobile-sufix-0">
       <h3>MISIÓN</h3>
