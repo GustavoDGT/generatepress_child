@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 ?>
-<section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-section skinny-section parallax-enabled" style="background-image: url('<?php echo get_stylesheet_directory_uri() . '/images/bg-contact.jpg'; ?>')">
+<section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-section skinny-section parallax-enabled" data-parallax-speed="2" style="background-image: url('<?php echo get_stylesheet_directory_uri() . '/images/bg-contact.jpg'; ?>')">
   <div class="grid-100 mobile-grid-100">
     <div class="grid-100 grid-parent">
       <h2>SUSCRÍBETE AHORA</h2>

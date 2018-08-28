@@ -821,8 +821,8 @@ img.client-item {
 /* Contact */
 #wip-contact {
     background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: top;
     background-repeat: no-repeat;
 }
 #wip-contact .wip-form {
