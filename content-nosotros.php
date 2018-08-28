@@ -29,20 +29,21 @@ $upload_path = $uploads['baseurl'];
   <div class="grid-100 mobile-100 grid-parent">
   </div>
 </section>
-<section id="wip-valors" class="grid-100 wip-40 align-center tiny-section">
-  <div class="grid-100 mobile-grid-100 wip-20-bottom">
+<section id="wip-valors" class="grid-100 wip-40  tiny-section">
+  <div class="grid-100 mobile-grid-100 align-center wip-20-bottom">
 		<h2>NUESTROS VALORES</h2>
 		<div class="wip-header-line"></div>
-    <div class="grid-100 grid-parent">
-      <ul class="wip-list">
-        <li>Lealtad</li>
-        <li>Actitud</li>
-        <li>Proactividad</li>
-        <li>Probidad</li>
-        <li>Justicia</li>
-        <li>Disciplina</li>
-      </ul>
-    </div>
+  </div>
+  <div class="grid-100 mobile-grid-100 grid-parent">
+    <ul class="wip-list">
+      <li>Lealtad</li>
+      <li>Actitud</li>
+      <li>Proactividad</li>
+      <li>Probidad</li>
+      <li>Justicia</li>
+      <li>Disciplina</li>
+    </ul>
+  </div>
   </div>
   <div id="its-clients" class="its-clients slider-home owl-carousel owl-theme">
     <div class="client item">
