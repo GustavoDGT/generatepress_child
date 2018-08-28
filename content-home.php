@@ -328,7 +328,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <?php include( WIP_PLUGIN_PATH . 'front/parts/sponsors.php' ); ?>
 </section>
-<section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-section skinny-section" style="background: url('<?php echo get_template_directory_uri() . '/images/bg-contact.jpg'; ?>')">
+<section id="wip-contact" class="grid-100 wip-40-top wip-20-bottom align-center bg-section skinny-section" style="background: url('<?php echo get_stylesheet_directory_uri() . '/images/bg-contact.jpg'; ?>')">
   <div class="grid-100 mobile-grid-100">
     <div class="grid-100 grid-parent">
       <h2>SUSCRÍBETE AHORA</h2>
