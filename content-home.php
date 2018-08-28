@@ -89,7 +89,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) && is_array( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time>Próximos inicios: <?php foreach( $date_start as $date ): ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start; ?>"><?php echo convert_spanish_date( $date ); ?></span><br><?php endforeach; ?></time>  
+                    <time>Próximos inicios: <?php foreach( $date_start as $date ): ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start; ?>"><?php echo convert_spanish_date( $date, 'tiny' ); ?></span><br><?php endforeach; ?></time>  
                   </div>
                 <?php endif; ?>
               </div>
@@ -121,7 +121,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time>Próximos inicios: <?php $i=0; foreach( $date_start as $date): $i++; ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date; ?>"><?php echo convert_spanish_date( $date ); ?></span><?php if( $i != count( $date_start ) ) echo ', '; endforeach; ?></time>  
+                    <time>Próximos inicios: <?php $i=0; foreach( $date_start as $date): $i++; ?><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date; ?>"><?php echo convert_spanish_date( $date, 'tiny' ); ?></span><?php if( $i != count( $date_start ) ) echo ', '; endforeach; ?></time>  
                   </div>
                 <?php endif; ?>
               </div>

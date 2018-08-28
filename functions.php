@@ -7,9 +7,12 @@
  */
 
 function generatepress_child_enqueue_scripts() {
+	$theme_url = get_template_directory_uri();
+	//General
+	wp_enqueue_style( 'wip-custom', $theme_url . "/style.css", false, WIP_VERSION, 'all' );
+	
 	if ( is_rtl() ) {
-		wp_enqueue_style( 'generatepress-rtl', trailingslashit( get_template_directory_uri() ) . 'rtl.css' );
-		wp_enqueue_style( 'wip-custom', get_template_directory_uri() . "/style.css", false, WIP_VERSION, 'all' );
-	}
+		wp_enqueue_style( 'generatepress-rtl', trailingslashit( $theme_url ) . 'rtl.css' );
+	}	
 }
 add_action( 'wp_enqueue_scripts', 'generatepress_child_enqueue_scripts', 100 );
