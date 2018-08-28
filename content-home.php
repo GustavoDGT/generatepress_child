@@ -92,7 +92,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) && is_array( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start[0]; ?>">Próximos inicios: <?php echo convert_spanish_date( $date_start[0], 'tiny' ); ?></time>  
+                    <time class="date-display-single" property="dc:date" datatype="xsd:dateTime" datetime="<?php echo $date_start[0]; ?>">Próximo inicio: <?php echo convert_spanish_date( $date_start[0], 'tiny' ); ?></time>  
                   </div>
                 <?php endif; ?>
               </div>
@@ -124,7 +124,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
                 </div>
                 <?php if( ! empty( $date_start ) ): ?>
                   <div class="course-meta">
-                    <time class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="<?php echo $date_start[0]; ?>">Próximos inicios: <?php echo convert_spanish_date( $date_start[0], 'tiny' ); ?></time>  
+                    <time class="date-display-single" property="dc:date" datatype="xsd:dateTime" datetime="<?php echo $date_start[0]; ?>">Próximo inicio: <?php echo convert_spanish_date( $date_start[0], 'tiny' ); ?></time>  
                   </div>
                 <?php endif; ?>
               </div>
