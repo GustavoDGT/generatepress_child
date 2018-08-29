@@ -43,7 +43,7 @@ $upload_path = $uploads['baseurl'];
     </ul>
   </div>
 </section>
-<section id="wip-clients" class="grid-100 wip-40-top wip-20-bottom align-center tight-section">
+<section id="wip-clients" class="grid-100 wip-40 align-center tight-section">
   <div class="grid-100 mobile-grid-100 wip-20-bottom">
     <h3 class="title-sponsors">¿QUIÉNES CONFÍAN EN NOSOTROS?</h3>
   </div>
