@@ -768,10 +768,12 @@ h3.wip-initial-date {
     display: table-cell;
     vertical-align: middle;
 }
+.thim-widget-icon-box .content-inner .sc-heading.article_heading {
+    min-height: 40px;
+}
 .thim-widget-icon-box .wrapper-box-icon.has_custom_image:not(.overlay) .desc-icon-box {
     margin-top: 8px;
     padding-right: 0;
-    min-height: 66px;
 }
 .thim-widget-icon-box .content-inner {
     padding: 15px;
