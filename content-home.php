@@ -219,7 +219,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   <div class="grid-50 mobile-grid-100 grid-parent wip-40">
     <h2>¿POR QUÉ <b>APRENDER SAP</b> CON NOSOTROS?</h2>
     <div class="wip-header-line"></div>
-      <p class="">Razones para acompañarte en tu camino profesional</p>
+      <p>Razones para acompañarte en tu camino profesional</p>
     <div class="wip-table wip-table--2cols">
       <div class="wip-cell-right">
         <i class="fa fa-lightbulb-o fa-2x icon-service wip-circle" aria-hidden="true"></i>
@@ -246,6 +246,19 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <div class="bg-formation grid-50 mobile-grid-100 grid-parent" style="background: url( '<?php echo $upload_path . '/2018/07/aprende-nosotros.jpg'; ?>' )">
     <!--<i class="fa fa-video fa-2x icon-service wip-circle" aria-hidden="true"></i>-->
+  </div>
+</section>
+<section id="wip-formation-pack" class="grid-100 grid-parent align-center" style="background: url( '<?php echo $upload_path . '/2018/09/formation-pack.png'; ?>' )">
+  <div class="prefix-40 grid-60 mobile-grid-100 grid-parent wip-40 skinny-section">
+    <h2>¿QUIERES <b>APRENDER SAP</b> DESDE CERO?</h2>
+    <div class="wip-header-line"></div>
+    <p>Inicia y toma ventaja con el pack de recursos, guías y contenido multimedia para aprender que es SAP. Este material será excelente para que puedas definir que curso deberás seguir según tu perfil, contexto actual y proyección de tu crecimiento personal.</p>
+    <div class="wip-cute-box">
+      <p>Descarga gratis mi pack de bienvenida</p>
+      <div class="wip-20-bottom">
+        <a class="wip-btn" href="acerca-de-educacion-ejecutiva">DESCARGAR PACK</a>
+      </div>
+    </div>
   </div>
 </section>
 <section id="wip-testimonial" class="align-center grid-100 mobile-grid-100 tight-section bg-blue wip-40 ">
