@@ -1028,6 +1028,9 @@ section .border-section:last-child {
 /** CUSTOMIZE REGISTER FORM **/
 #tab-enroll .wip-input {
     color: #777;
+}
+
+#tab-enroll .invalid .wip-input {
     min-height: 100px;
 }
 
