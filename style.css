@@ -226,7 +226,10 @@ i.wip-circle {
   padding-right: 10% !important;
   padding-left: 10% !important;
 }
-
+.small-section {
+  padding-right: 15% !important;
+  padding-left: 15% !important;
+}
 .bg-section {
     font-family: "SF Pro Display";
     color: #fff;
@@ -1088,6 +1091,28 @@ section .border-section:last-child {
 
 .archive .site-content, .post-type-archive-lp_course .site-content {
     padding: 5% 10% 0 !important;
+}
+
+/* MODALS CONTENT */
+#wip-modal-suscription .wip-title {
+  display: inline-block;
+}
+#wip-modal-suscription .wip-title-init {
+  padding: 5px 15% 5px 15px;
+  background-color: rgba(51, 122, 183, 0.6);
+  float: right;
+}
+
+#wip-modal-suscription .wip-title-final {
+  margin-top: 12px;
+  background-color: rgba(51, 122, 183, 0.6);
+  padding: 5px 15px 5px 15%;
+  float: left;
+}
+#wip-modal-suscription input,
+#wip-modal-suscription label {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /** RESPONSIVE CSS **/

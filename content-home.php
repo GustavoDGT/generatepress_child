@@ -256,7 +256,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     <div class="wip-cute-box">
       <p>Descarga gratis mi pack de bienvenida</p>
       <div class="wip-20-bottom">
-        <a class="wip-btn" href="acerca-de-educacion-ejecutiva">DESCARGAR PACK</a>
+        <a href="#" title="Descargar SAP gratis" data-modal="wip-modal-suscription" rel="nofollow"class="show-modal wip-btn">DESCARGAR PACK</a>
       </div>
     </div>
   </div>
