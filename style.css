@@ -226,13 +226,31 @@ i.wip-circle {
   padding-right: 10% !important;
   padding-left: 10% !important;
 }
+
 .bg-section {
     font-family: "SF Pro Display";
     color: #fff;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
 }
 .bg-section h2{
     color: #fff;
 }
+
+.bg-section .wip-form .wpcf7 .wip-input input {
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: "SF Pro Display";
+}
+
+.bg-section .wip-form .wpcf7 .wip-input input::placeholder {
+    color: #fff;
+}
+
 .wip-social {
     padding: 20px 0 0;
     text-align: center;
@@ -655,7 +673,6 @@ h3.wip-initial-date {
 #wip-formation-pack {
   background-size: contain !important;
   background-repeat: no-repeat !important;
-  display: none;
 }
 
 /* About us */
@@ -835,35 +852,14 @@ img.client-item {
 }
 
 /* Contact */
-#wip-contact {
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
-}
-#wip-contact .wip-form {
+#wip-contact .wip-form,
+#wip-formation-pack .wip-form {
     padding-left: 17%;
     padding-right: 17%;
 }
 
 #wip-contact .wip-form .wpcf7 .wip-input {
   margin-bottom: 25px;
-}
-
-#wip-contact .wip-form .wpcf7 .wip-input label {
-    display: none;
-}
-
-#wip-contact .wip-form .wpcf7 .wip-input input {
-    background: none;
-    border-radius: 5px;
-    border: 2px solid #fff;
-    color: #fff;
-    font-family: "SF Pro Display";
-}
-
-#wip-contact .wip-form .wpcf7 .wip-input input::placeholder {
-    color: #fff;
 }
 
 #wip-contact .wip-form .wpcf7 .wip-submit input {
