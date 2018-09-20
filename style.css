@@ -1095,17 +1095,16 @@ section .border-section:last-child {
 
 /* MODALS CONTENT */
 #wip-modal-suscription .wip-title {
-  display: inline-block;
+  /* font-weight: 800; */
 }
 #wip-modal-suscription .wip-title-init {
   padding: 5px 15% 5px 15px;
-  background-color: rgba(51, 122, 183, 0.6);
+  background-color: rgba(51, 122, 183, 0.75);
   float: right;
 }
-
 #wip-modal-suscription .wip-title-final {
   margin-top: 12px;
-  background-color: rgba(51, 122, 183, 0.6);
+  background-color: rgba(51, 122, 183, 0.75);
   padding: 5px 15px 5px 15%;
   float: left;
 }

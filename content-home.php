@@ -215,40 +215,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
       <a class="wip-btn" href="acerca-de-educacion-ejecutiva">VER MÁS PRÓXIMOS INICIOS</a>
   </div>
 </section>-->
-<section id="wip-formation" class="grid-100 grid-parent align-center">
-  <div class="grid-50 mobile-grid-100 grid-parent wip-40">
-    <h2>¿POR QUÉ <b>APRENDER SAP</b> CON NOSOTROS?</h2>
-    <div class="wip-header-line"></div>
-      <p>Razones para acompañarte en tu camino profesional</p>
-    <div class="wip-table wip-table--2cols">
-      <div class="wip-cell-right">
-        <i class="fa fa-lightbulb-o fa-2x icon-service wip-circle" aria-hidden="true"></i>
-      </div>
-      <div class="wip-cell-left">
-        <h4 class="wip-icon-text">INNOVACIÓN CONTINUA</h4>
-      </div>
-      <div class="wip-cell-right">
-        <i class="fa fa-line-chart fa-2x icon-service wip-circle" aria-hidden="true"></i>
-      </div>
-      <div class="wip-cell-left">
-        <h4 class="wip-icon-text">CALIDAD INFORMATIVA</h4>
-      </div>
-      <div class="wip-cell-right">
-        <i class="fa fa-handshake-o fa-2x icon-service wip-circle" aria-hidden="true"></i>
-      </div>
-      <div class="wip-cell-left">
-        <h4 class="wip-icon-text">EXPERIENCIA DOCENTE</h4>
-      </div>
-    </div>
-    <!--<div class="wip-50">
-      <a class="wip-btn" href="acerca-de-educacion-ejecutiva">CONÓCENOS MÁS</a>
-    </div>-->
-  </div>
-  <div class="bg-formation grid-50 mobile-grid-100 grid-parent" style="background: url( '<?php echo $upload_path . '/2018/07/aprende-nosotros.jpg'; ?>' )">
-    <!--<i class="fa fa-video fa-2x icon-service wip-circle" aria-hidden="true"></i>-->
-  </div>
-</section>
-<section id="wip-formation-pack" class="grid-100 grid-parent align-center" style="background: url( '<?php echo $upload_path . '/2018/09/formation-pack.png'; ?>' )">
+<section id="wip-formation-pack" class="grid-100 grid-parent align-center" style="background: url( '<?php echo $upload_path . '/2018/09/formation-pack.png'; ?>' ), linear-gradient(to right,#fff 0%,#dadada 130%)">
   <div class="prefix-40 grid-60 mobile-grid-100 grid-parent wip-40 skinny-section">
     <h2>¿QUIERES <b>APRENDER SAP</b> DESDE CERO?</h2>
     <div class="wip-header-line"></div>
