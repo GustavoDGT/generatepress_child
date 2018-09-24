@@ -1166,7 +1166,10 @@ section .border-section:last-child {
       display: block;
       margin: 10px 0 40px;
     }
-
+    
+    #wip-formation-pack {
+      background: none !important;
+    }
     /** COURSE CPT TYPE */
     .admin-bar .wip-sticky,
     .admin-bar.sticky-enabled.single-lp_course .wip-sticky {
