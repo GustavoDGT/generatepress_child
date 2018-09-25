@@ -1106,7 +1106,8 @@ section .border-section:last-child {
   float: left;
 }
 #wip-modal-suscription input,
-#wip-modal-suscription label {
+#wip-modal-suscription label,
+#wip-modal-suscription .wpcf7-not-valid-tip {
   font-size: 14px;
   font-weight: 400;
 }
