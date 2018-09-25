@@ -1094,9 +1094,6 @@ section .border-section:last-child {
 }
 
 /* MODALS CONTENT */
-#wip-modal-suscription .wip-title {
-  /* font-weight: 800; */
-}
 #wip-modal-suscription .wip-title-init {
   padding: 5px 15% 5px 15px;
   background-color: rgba(51, 122, 183, 0.75);
@@ -1227,7 +1224,23 @@ section .border-section:last-child {
         width: 100%;
         text-align: center;
     }
-
+    #wip-modal-suscription .wip-title {
+    	background-color: rgba(51, 122, 183, 0.75);
+    	padding: 10px;
+    	margin-top: 5px;
+    }
+    #wip-modal-suscription .wip-title-init {
+	padding: 0;
+    	background: none;
+    	float: initial;
+    }
+    #wip-modal-suscription .wip-title-final {
+	    margin: 0;
+	    background: none;
+	    float: initial;
+	    padding: 0;
+    }
+	  
     /* EXTRAS */
     ul.wip-list li {
         width: 80% !important;
