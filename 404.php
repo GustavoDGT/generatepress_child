@@ -36,7 +36,7 @@ get_header(); ?>
 				?>
 
 				<header class="entry-header align-center wip-40-top">
-					<h1 class="entry-title wip-50-bottom" itemprop="headline"><?php echo __( 'ERROR 404', 'generatepress' ); // WPCS: XSS OK. ?></h1>
+					<h1 class="entry-title wip-50-bottom" itemprop="headline"><?php echo __( '¡ERROR 404!', 'generatepress' ); // WPCS: XSS OK. ?></h1>
 					<img src="<?php echo get_stylesheet_directory_uri() . '/images/404-plug-in.png'; ?>">
 				</header><!-- .entry-header -->
 
@@ -55,7 +55,7 @@ get_header(); ?>
 					<?php
 					echo '<h3>' .  __( '¡Tenemos un problema! La página que buscas no se encuentra disponible o no existe.', 'generatepress' ) . '</h3>'; // WPCS: XSS OK.
 					?>
-					<a class="wip-btn" href="<?php echo get_bloginfo( 'url' ); ?>" title="Rumbo a casa">
+					<a class="wip-btn wip-40-top" href="<?php echo get_bloginfo( 'url' ); ?>" title="Rumbo a casa">
 						<?php echo __( 'Regresar a la página principal', 'generatepress' ); ?>
 					</a>
 				</div><!-- .entry-content -->
