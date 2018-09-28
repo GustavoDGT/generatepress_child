@@ -37,6 +37,7 @@ get_header(); ?>
 
 				<header class="entry-header align-center wip-40">
 					<h1 class="entry-title" itemprop="headline"><?php echo __( 'ERROR 404', 'generatepress' ); // WPCS: XSS OK. ?></h1>
+					<img src="'<?php echo get_stylesheet_directory_uri() . '/images/404-plug-in.png'; ?>">
 				</header><!-- .entry-header -->
 
 				<?php
@@ -50,12 +51,14 @@ get_header(); ?>
 				do_action( 'generate_after_entry_header' );
 				?>
 
-				<div class="entry-content" itemprop="text">
+				<div class="entry-content wip-40-bottom tight-section align-center" itemprop="text">
 					<?php
-					echo '<p>' . apply_filters( 'generate_404_text', __( 'It looks like nothing was found at this location. Maybe try searching?', 'generatepress' ) ) . '</p>'; // WPCS: XSS OK.
-
-					get_search_form();
+					echo '<h3>' .  __( '¡Tenemos un problema! La página que buscas no se encuentra disponible o no existe.', 'generatepress' ) . '</ph3>'; // WPCS: XSS OK.
 					?>
+					<a href="<?php echo get_bloginfo( 'url' ); ?>" title="Homepage">
+						<img src="'<?php echo get_stylesheet_directory_uri() . '/images/404-button.png'; ?>">
+						<p><?php echo __( 'Regresar a la página principal', 'generatepress' ); ?></p>
+					</a>
 				</div><!-- .entry-content -->
 
 				<?php
