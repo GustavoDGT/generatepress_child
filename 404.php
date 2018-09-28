@@ -55,9 +55,8 @@ get_header(); ?>
 					<?php
 					echo '<h3>' .  __( '¡Tenemos un problema! La página que buscas no se encuentra disponible o no existe.', 'generatepress' ) . '</h3>'; // WPCS: XSS OK.
 					?>
-					<a href="<?php echo get_bloginfo( 'url' ); ?>" title="Homepage">
-						<img style="display:block; margin: auto; width: 200px" src="<?php echo get_stylesheet_directory_uri() . '/images/404-button.png'; ?>">
-						<p><?php echo __( 'Regresar a la página principal', 'generatepress' ); ?></p>
+					<a class="wip-btn" href="<?php echo get_bloginfo( 'url' ); ?>" title="Rumbo a casa">
+						<?php echo __( 'Regresar a la página principal', 'generatepress' ); ?>
 					</a>
 				</div><!-- .entry-content -->
 
