@@ -53,9 +53,9 @@ get_header(); ?>
 
 				<div class="entry-content wip-40-bottom tight-section align-center" itemprop="text">
 					<?php
-					echo '<h3>' .  __( '¡Tenemos un problema! La página que buscas no se encuentra disponible o no existe.', 'generatepress' ) . '</h3>'; // WPCS: XSS OK.
+					echo '<h3 class="wip-40-bottom">' .  __( '¡Tenemos un problema! La página que buscas no se encuentra disponible o no existe.', 'generatepress' ) . '</h3>'; // WPCS: XSS OK.
 					?>
-					<a class="wip-btn wip-40-top" href="<?php echo get_bloginfo( 'url' ); ?>" title="Rumbo a casa">
+					<a class="wip-btn" href="<?php echo get_bloginfo( 'url' ); ?>" title="Rumbo a casa">
 						<?php echo __( 'Regresar a la página principal', 'generatepress' ); ?>
 					</a>
 				</div><!-- .entry-content -->
