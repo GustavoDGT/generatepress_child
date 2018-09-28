@@ -22,7 +22,7 @@ get_header(); ?>
 			do_action( 'generate_before_main_content' );
 			?>
 
-			<div class="inside-article">
+			<div class="inside-article bg-skyblue">
 
 				<?php
 				/**
