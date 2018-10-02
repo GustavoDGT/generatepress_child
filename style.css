@@ -1170,7 +1170,7 @@ section .border-section:last-child {
 
     img.client-item {
       width: 100% !important;
-      height: inherit !important;
+      height: 73px !important;
     }
 
     .wip-view-all {
