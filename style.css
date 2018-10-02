@@ -354,7 +354,7 @@ body.home.page a:hover, #wip-tabs-courses label:hover, #wip-tabs-courses input:c
 .slider-home .owl-prev:hover, .slider-home .owl-next:hover, .wip-social a:hover {
   color: #337ab7 !important;
 }
-/* Body colors */
+/* Home colors and more */
 body.home.page a {
   color: #444444;
 }
@@ -367,7 +367,13 @@ body.home.page .generate-back-to-top,
 body.home.page .generate-back-to-top:hover {
   color: #fff;
 }
-/** END General Color **/
+body.home.page .entry-header {
+  display: none;
+}
+body.home.page .entry-content {
+  margin: 0;
+}
+/** END Home Color and more **/
 /* Header */
 #site-navigation a, .menu-toggle {
     letter-spacing: 0;
