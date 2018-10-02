@@ -8,6 +8,8 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
+
+$style_dir = get_stylesheet_directory_uri();
 $uploads = wp_upload_dir();
 $upload_path = $uploads['baseurl'];
 
@@ -28,7 +30,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <div class="grid-33 mobile-grid-100 prefix-33 sufix-33 mobile-prefix-0 mobile-sufix-0">
     <div class="sponsor item">
-      <img src="<?php echo $upload_path . '/2018/08/11_camara_comercio.png'; ?>"/>
+      <img src="<?php echo $upload_path . '/2018/08/11_camara_comercio.png'; ?>" alt="Cámara de Comercio de Lima" title="Cámara de Comercio - Lima"/>
     </div>
   </div>
   <div class="grid-100 mobile-grid-100 wip-20">
@@ -79,7 +81,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
               <div class="course-thumbnail"> 
                 <?php if (!empty($f_image)): ?>
                   <a href="<?php the_permalink(); ?>"> 
-                    <img class="owl-lazy" data-src="<?php echo $f_image[0]; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
+                    <img class="owl-lazy" data-src="<?php echo $f_image[0]; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>"/> 
                   </a>
                 <?php endif; ?>
               </div>
@@ -111,7 +113,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
               <div class="course-thumbnail"> 
                 <?php if (!empty($f_image)): ?>
                   <a href="<?php the_permalink(); ?>"> 
-                    <img class="owl-lazy" data-src="<?php echo $f_image[0]; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
+                    <img class="owl-lazy" data-src="<?php echo $f_image[0]; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
                   </a>
                 <?php endif; ?>
               </div>
@@ -277,28 +279,28 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   </div>
   <div id="its-clients" class="its-clients slider-home owl-carousel owl-theme">
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/1_aje.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/1_aje.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/2_lindley.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/2_lindley.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/3_malaga.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/3_malaga.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/4_ism.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/4_ism.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/5_gandules_inc.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/5_gandules_inc.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/6_ipesa.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/6_ipesa.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/7_dent_import.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/7_dent_import.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
     <div class="client item">
-      <img data-src="<?php echo $upload_path . '/2018/07/8_globaltec.png'; ?>" alt="" class="owl-lazy client-item"/>
+      <img data-src="<?php echo $upload_path . '/2018/07/8_globaltec.png'; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="" class="owl-lazy client-item"/>
     </div>
   </div>
 </section>
