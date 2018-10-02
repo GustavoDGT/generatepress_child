@@ -87,9 +87,9 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
               </div>
               <div class="thim-course-content">
                 <div class="course-content">
-                  <h4 class="course-title">
+                  <h3 class="course-title">
                     <a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_title(); ?></a>
-                  </h4>
+                  </h3>
                   <p class="course-description"><?php echo get_the_excerpt(); ?></p>
                 </div>
                 <?php if( ! empty( $date_start ) && is_array( $date_start ) ): ?>
@@ -119,9 +119,9 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
               </div>
               <div class="thim-course-content">
                 <div class="course-content">
-                  <h4 class="course-title">
+                  <h3 class="course-title">
                     <a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_title(); ?></a>
-                  </h4>
+                  </h3>
                   <p class="course-description"><?php echo get_the_excerpt(); ?></p>
                 </div>
                 <?php if( ! empty( $date_start ) ): ?>
@@ -153,7 +153,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
             </div>
             <div class="content-inner">
               <div class="sc-heading article_heading">
-                <h4><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h4>
+                <h3><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h3>
               </div><div class="desc-icon-box"><div class="desc-content">Experiencia e innovación del sector privado contribuyendo al desarrollo del país
               </div></div>
             </div>
@@ -170,7 +170,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
             </div>
             <div class="content-inner">
               <div class="sc-heading article_heading">
-                <h4><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h4>
+                <h3><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h3>
               </div><div class="desc-icon-box"><div class="desc-content">Experiencia e innovación del sector privado contribuyendo al desarrollo del país
               </div></div>
             </div>
@@ -187,7 +187,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
             </div>
             <div class="content-inner">
               <div class="sc-heading article_heading">
-                <h4><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h4>
+                <h3><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h3>
               </div><div class="desc-icon-box"><div class="desc-content">Experiencia e innovación del sector privado contribuyendo al desarrollo del país
               </div></div>
             </div>
@@ -204,7 +204,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
             </div>
             <div class="content-inner">
               <div class="sc-heading article_heading">
-                <h4><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h4>
+                <h3><a href="#">Programa Internacional Avanzado en Asociaciones Público Privadas</a></h3>
               </div><div class="desc-icon-box"><div class="desc-content">Experiencia e innovación del sector privado contribuyendo al desarrollo del país
               </div></div>
             </div>
