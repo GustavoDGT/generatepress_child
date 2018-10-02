@@ -213,7 +213,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
       </div>
     </div>
   </div>
-  <!--<div class="grid-100 wip-40">
+  <div class="grid-100 wip-40">
       <a class="wip-btn" href="acerca-de-educacion-ejecutiva">VER MÁS PRÓXIMOS INICIOS</a>
   </div>
 </section>-->
@@ -225,7 +225,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
     <div class="wip-cute-box">
       <p>Descarga gratis mi pack de bienvenida</p>
       <div class="wip-20-bottom">
-        <a href="#" title="Descargar SAP gratis" data-modal="wip-modal-suscription" rel="nofollow"class="show-modal wip-btn">DESCARGAR PACK</a>
+        <a href="#" title="Descargar SAP gratis" data-modal="wip-modal-suscription" rel="nofollow" class="show-modal wip-btn">DESCARGAR PACK</a>
       </div>
     </div>
   </div>
@@ -235,31 +235,31 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
   <div class="wip-header-white-line"></div>
   <p>La satisfacción de nuestros estudiantes es nuestra mejor carta de presentación.</p>
   <div id="testimonial" class="slider-home owl-carousel owl-theme">
-                <div id="item-1" class="item">
-                  <div class="text-caption">
-                    <img class="person-img" src="<?php echo $upload_path . '/2018/08/marcos-1.png'; ?>" />
-                    <blockquote>
-                      "Les recomiendo estudiar en Itsystems Perú porque brindan ejercicios bien prácticos aplicados a la realidad dentro del ambiente productivo en SAP. Asimismo, les brindan apoyo para poder practicar las 24 horas, sin importar el lugar, ni la distancia y sobretodo asesorías a todo nivel. Es un excelente lugar para empezar en el mundo del SAP."
-                    </blockquote>
-                    <!--<p><b>Taller en Proyectos Ágiles con Scrum</b></p>-->
-                    <p>
-                      <span class="person-name">Marcos Irving Mera Sanchez</span><br>
-                      Ing. CIP Sistemas - IT Professional
-                    </p>
-                  </div>
-                </div>
-                <div id="item-2" class="item">
-                  <div class="text-caption">
-                    <img class="person-img" src="<?php echo $upload_path . '/2018/08/jorge-1.png'; ?>" />
-                    <blockquote>
-                      "Excelente el curso de SAP Business One, el profesor Joel Campos es un buen profesional, un grupo reducido de estudiantes, recibí un gran apoyo tanto de él, como de la parte administrativa, muy recomendado."
-                    </blockquote>
-                    <p>
-                      <span class="person-name">Jorge Arturo Romero Chuquimantari</span><br>
-                      Analista de Sistemas
-                    </p>
-                  </div>
-                </div>
+    <div id="item-1" class="item">
+      <div class="text-caption">
+        <img class="person-img" src="<?php echo $upload_path . '/2018/08/marcos-1.png'; ?>" alt="Estudiante Itsystems - Marcos" title="Marcos Irving Mera Sanchez" />
+        <blockquote>
+          "Les recomiendo estudiar en Itsystems Perú porque brindan ejercicios bien prácticos aplicados a la realidad dentro del ambiente productivo en SAP. Asimismo, les brindan apoyo para poder practicar las 24 horas, sin importar el lugar, ni la distancia y sobretodo asesorías a todo nivel. Es un excelente lugar para empezar en el mundo del SAP."
+        </blockquote>
+        <!--<p><b>Taller en Proyectos Ágiles con Scrum</b></p>-->
+        <p>
+          <span class="person-name">Marcos Irving Mera Sanchez</span><br>
+          Ing. CIP Sistemas - IT Professional
+        </p>
+      </div>
+    </div>
+    <div id="item-2" class="item">
+      <div class="text-caption">
+        <img class="person-img" src="<?php echo $upload_path . '/2018/08/jorge-1.png'; ?>" alt="Estudiante Itsystems - Jorge" title="Jorge Arturo Romero Chuquimantari"/>
+        <blockquote>
+          "Excelente el curso de SAP Business One, el profesor Joel Campos es un buen profesional, un grupo reducido de estudiantes, recibí un gran apoyo tanto de él, como de la parte administrativa, muy recomendado."
+        </blockquote>
+        <p>
+          <span class="person-name">Jorge Arturo Romero Chuquimantari</span><br>
+          Analista de Sistemas
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 <section id="wip-news" class="grid-100 wip-40-top wip-20-bottom tight-section bg-skyblue">
