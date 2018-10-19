@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <section class="grid-100 grid-parent wip-40 skinny-section" id="wip-presentation">
-  <div class="grid-100 mobile-100 align-center grid-parent">
+  <div class="grid-100 mobile-100 align-justify grid-parent">
     <?php the_content(); ?>
   </div>
 </section>
