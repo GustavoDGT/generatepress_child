@@ -67,8 +67,22 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
       $erp_query = new WP_Query($courses_args);
       if ($erp_query->have_posts()):
       ?>
-        <input id="tab-sap-erp" type="radio" name="wip-tabs" <?php if(!$bo_query->have_posts()) echo 'checked'; ?>>
+        <input id="tab-sap-erp" type="radio" name="wip-tabs" <?php if(!$bo_query->have_posts() && !$digital_query->have_posts()) echo 'checked'; ?>>
         <label for="tab-sap-erp"><i class="fa fa-saperp fa-2x"></i></label>
+      <?php 
+      endif;
+      $courses_args['tax_query'] = array(
+        array(
+          'taxonomy' => 'course_category',
+          'field' => 'slug',
+          'terms' => 'e-digital'
+        )
+      );
+      $digital_query = new WP_Query($courses_args);
+      if ($digital_query->have_posts()):
+      ?>
+        <input id="tab-e-digital" type="radio" name="wip-tabs" <?php if(!$bo_query->have_posts() && !$erp_query->have_posts()) echo 'checked'; ?>>
+        <label for="tab-e-digital"><i class="fa fa-edigital fa-2x"></i></label>
       <?php endif; ?>
       <?php if ($bo_query->have_posts()): ?>
         <div id="sap-bo" class="tab-section learn-press-courses slider-home owl-carousel owl-theme fadeIn animated">
@@ -105,6 +119,38 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
       <?php if ($erp_query->have_posts()): ?>
         <div id="sap-erp" class="tab-section learn-press-courses slider-home owl-carousel owl-theme animated fadeIn">
           <?php while ($erp_query->have_posts()): $erp_query->the_post(); 
+            $date_start = get_post_meta( get_the_ID(), '_lp_date_start', true );
+            $f_image_id = get_post_meta( get_the_ID(), WIP_PREFIX . '_thumb_image', true );
+            $f_image = wp_get_attachment_image_src( $f_image_id, 'full' );
+            ?>
+            <div class="lp_course item">
+              <div class="course-thumbnail"> 
+                <?php if (!empty($f_image)): ?>
+                  <a href="<?php the_permalink(); ?>"> 
+                    <img class="owl-lazy" data-src="<?php echo $f_image[0]; ?>" src="<?php echo $style_dir . '/images/whole.png'; ?>" alt="<?php echo get_post_meta( $f_image_id, '_wp_attachment_image_alt', true); ?>" title="<?php echo get_the_title( $f_image_id ); ?>" /> 
+                  </a>
+                <?php endif; ?>
+              </div>
+              <div class="thim-course-content">
+                <div class="course-content">
+                  <h3 class="course-title">
+                    <a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_title(); ?></a>
+                  </h3>
+                  <p class="course-description"><?php echo get_the_excerpt(); ?></p>
+                </div>
+                <?php if( ! empty( $date_start ) ): ?>
+                  <div class="course-meta">
+                    <time class="date-display-single" property="dc:date" datatype="xsd:dateTime" datetime="<?php echo $date_start[0]; ?>">Próximo inicio: <?php echo convert_spanish_date( $date_start[0], 'tiny' ); ?></time>  
+                  </div>
+                <?php endif; ?>
+              </div>
+            </div>
+          <?php endwhile; wp_reset_postdata(); ?>     
+        </div>
+      <?php endif; ?>
+      <?php if ($digital_query->have_posts()): ?>
+        <div id="e-digital" class="tab-section learn-press-courses slider-home owl-carousel owl-theme animated fadeIn">
+          <?php while ($digital_query->have_posts()): $digital_query->the_post(); 
             $date_start = get_post_meta( get_the_ID(), '_lp_date_start', true );
             $f_image_id = get_post_meta( get_the_ID(), WIP_PREFIX . '_thumb_image', true );
             $f_image = wp_get_attachment_image_src( $f_image_id, 'full' );

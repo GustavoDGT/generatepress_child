@@ -27,12 +27,14 @@
 } 
 
 .fa-sapbo:before {
-  content: "\e900";
+  content: "\e901";
 }
 .fa-saperp:before {
   content: "\e902";
 }
-
+.fa-edigital:before {
+  content: "\e900";
+}
 /* GENERAL */
 blockquote {
     margin: 0 5%;
