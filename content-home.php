@@ -75,7 +75,7 @@ $courses_args = array( 'post_type' => LP_COURSE_CPT,
         array(
           'taxonomy' => 'course_category',
           'field' => 'slug',
-          'terms' => 'e-digital'
+          'terms' => 'economia-digital'
         )
       );
       $digital_query = new WP_Query($courses_args);
